@@ -1,6 +1,6 @@
 {
   "name": "angular-assert-q-constructor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Make sure $q is a constructor (1.3+). Throw if it isn't.",
   "main": "./src",
   "directories": {
