@@ -1,10 +1,10 @@
 'use strict'
 
-import angular from 'angular'
+var angular = require('angular')
 
-export default angular.module('assert-q-constructor', [])
+module.exports = angular.module('assert-q-constructor', [])
   .factory('assertQConstructor', main)
-  .name;
+  .name
 
 main.$inject = ['$q']
 function main ($q) {

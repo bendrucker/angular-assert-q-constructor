@@ -7,8 +7,23 @@ Make sure $q is a constructor (1.3+). Throw if it isn't.
 $ npm install angular-assert-q-constructor
 ```
 
+## Usage
+
+```js
+angular
+  .module('myApp', [])
+  .run(function (assertQConstructor) {
+    assertQConstructor()
+  })
+```
+
 ## API
 
-##### `assertQConstructor(message:String)` -> `undefined`
+#### `assertQConstructor(message)` -> `undefined`
 
-Inject `assertQConstructor` and call it with an optional error message. If `$q` is a function, it's a noop. Otherwise (i.e. Angular <1.3) it will throw the `message`.
+If `$q` is a function, this is a noop. Otherwise (i.e. Angular <1.3) it will throw the `message`.
+
+##### message
+
+Type: `string`  
+Default: `'$q is not a function'`
