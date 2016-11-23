@@ -28,7 +28,7 @@
     "angular": "~1.5.8",
     "angular-mocks": "~1.5.8",
     "phantomjs": "~2.1.7",
-    "standard": "~8.5.0",
+    "standard": "~8.6.0",
     "zuul": "~3.11.1"
   },
   "files": [
