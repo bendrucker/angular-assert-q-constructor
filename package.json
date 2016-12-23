@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/bendrucker/angular-assert-q-constructor#readme",
   "devDependencies": {
-    "angular": "~1.5.8",
+    "angular": "~1.6.1",
     "angular-mocks": "~1.6.0",
     "phantomjs": "~2.1.7",
     "standard": "~8.6.0",
