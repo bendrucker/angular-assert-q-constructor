@@ -1,4 +1,4 @@
-# angular-assert-q-constructor [![Build Status](https://travis-ci.org/bendrucker/angular-assert-q-constructor.svg?branch=master)](https://travis-ci.org/bendrucker/angular-assert-q-constructor)
+# angular-assert-q-constructor [![Build Status](https://travis-ci.org/bendrucker/angular-assert-q-constructor.svg?branch=master)](https://travis-ci.org/bendrucker/angular-assert-q-constructor) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/angular-assert-q-constructor.svg)](https://greenkeeper.io/)
 Make sure $q is a constructor (1.3+). Throw if it isn't.
 
 ## Installing
